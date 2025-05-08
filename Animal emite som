@@ -1,0 +1,19 @@
+public class Animal // classe
+{
+    public string Nome { get; set; } // atributo
+
+    public void FazerSom()
+    {
+        Console.WriteLine($"{Nome} está emitindo som.");
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        Animal nomeAnimal = new Animal(); 
+        nomeAnimal.Nome = "Cachorro";
+        nomeAnimal.FazerSom();
+    }
+}
