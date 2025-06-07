@@ -1,0 +1,104 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    padding: 40px 10px;
+    margin: 0;
+  }
+  
+  .form-wrapper {
+    background: white;
+    width: 100%;
+    max-width: 600px;
+    padding: 30px 40px 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .form-wrapper h1 {
+    font-weight: 400;
+    color: #202124;
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .form-wrapper p {
+    font-size: 14px;
+    color: #5f6368;
+    margin: 0 0 24px 0;
+  }
+  
+  form.google-form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  .input-group {
+    position: relative;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 1.5px solid #dadce0;
+    padding: 14px 0 2px 0;
+    font-size: 16px;
+    color: #202124;
+    background: transparent;
+    resize: none;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="tel"]:focus,
+  textarea:focus {
+    border-bottom: 2px solid #e87e1a;
+  }
+  
+  label {
+    position: absolute;
+    top: 14px;
+    left: 0;
+    font-size: 16px;
+    color: #5f6368;
+    pointer-events: none;
+    transition: 0.3s ease all;
+  }
+  
+  /* efeito label flutuante */
+  input:focus + label,
+  input:not(:placeholder-shown) + label,
+  textarea:focus + label,
+  textarea:not(:placeholder-shown) + label {
+    top: -8px;
+    font-size: 12px;
+    color: #e87e1a;
+  }
+  
+  button {
+    background-color: #e87e1a;
+    border: none;
+    color: white;
+    padding: 14px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: flex-start;
+    transition: background-color 0.3s;
+    font-weight: 500;
+  }
+  
+  button:hover {
+    background-color: #b86212;
+  }
+  
