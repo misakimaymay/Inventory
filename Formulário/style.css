@@ -1,0 +1,35 @@
+body
+{
+    font-family: "Raleway", sans-serif;
+    background-color: #d4f8d4;
+    margin: 0;
+    padding: 20px;
+}
+
+table
+{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+td
+{
+    text-align: center;
+    vertical-align: middle;
+    height: 80vh; /*centraliza verticalmente*/
+}
+
+form
+{
+    display: inline-block;
+    text-align: left;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 24px;
+    box-shadow: 0 4px 12px rgba(0, 128, 0, 0.5);;
+    background: #fff;
+    border-radius: 8px;
+}

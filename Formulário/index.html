@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Formulário com Validação</title>
+     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <td> 
+                <form id="cadastroForm">
+                    <h1>Formulário de Cadastro</h1>
+                    <p>Preencha esse formulário e cadastro com as seguintes informações:</p>
+                    <label for="nome">Insira seu nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                    <br><br>
+                    <label for="age">Idade</label>
+                    <input type="number" name="age" id="idade" min="0" max="120" >
+                    <br><br>
+                    <label for="email">Insira seu email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br><br>
+                    <label for="nome">Insira o número de telefone::</label>
+                    <input type="tel" id="telefone" name="telefone" required>
+                    <br><br>
+                    <label for="senha">Insira sua senha:</label>
+                    <input type="password" id="senha" name="senha" required>
+                    <br><br>
+                    <label for="confirmarSenha">Confirme sua senha:</label>
+                    <input type="password" id="confirmarSenha" name="confirmarSenha" required>
+                    <br><br>
+                    <label>Preferência de contato:</label>
+                    <input type="radio" name="contato" id="emailContato" value="email" required>
+                    <label for="emailContato">Email</label>
+                    <input type="radio" name="contato" id="whatsappContato" value="whatsapp">
+                    <label for="whatsappContato">WhatsApp</label>
+                    <br><br>
+                    <button type="submit" class="button">Enviar</button>
+                    <button type="reset" class="button">Limpar</button><br>
+                </form>
+
+                <!--conecta o arquivo js com o arquivo html-->
+                <script src="form.js"></script>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
