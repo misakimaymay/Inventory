@@ -1,0 +1,14 @@
+C:\Users\Laudiene\source\repos\algoritmoBusca\algoritmoBusca\bin\Debug\net8.0\algoritmoBusca.exe
+C:\Users\Laudiene\source\repos\algoritmoBusca\algoritmoBusca\bin\Debug\net8.0\algoritmoBusca.deps.json
+C:\Users\Laudiene\source\repos\algoritmoBusca\algoritmoBusca\bin\Debug\net8.0\algoritmoBusca.runtimeconfig.json
+C:\Users\Laudiene\source\repos\algoritmoBusca\algoritmoBusca\bin\Debug\net8.0\algoritmoBusca.dll
+C:\Users\Laudiene\source\repos\algoritmoBusca\algoritmoBusca\bin\Debug\net8.0\algoritmoBusca.pdb
+C:\Users\Laudiene\source\repos\algoritmoBusca\algoritmoBusca\obj\Debug\net8.0\algoritmoBusca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Laudiene\source\repos\algoritmoBusca\algoritmoBusca\obj\Debug\net8.0\algoritmoBusca.AssemblyInfoInputs.cache
+C:\Users\Laudiene\source\repos\algoritmoBusca\algoritmoBusca\obj\Debug\net8.0\algoritmoBusca.AssemblyInfo.cs
+C:\Users\Laudiene\source\repos\algoritmoBusca\algoritmoBusca\obj\Debug\net8.0\algoritmoBusca.csproj.CoreCompileInputs.cache
+C:\Users\Laudiene\source\repos\algoritmoBusca\algoritmoBusca\obj\Debug\net8.0\algoritmoBusca.dll
+C:\Users\Laudiene\source\repos\algoritmoBusca\algoritmoBusca\obj\Debug\net8.0\refint\algoritmoBusca.dll
+C:\Users\Laudiene\source\repos\algoritmoBusca\algoritmoBusca\obj\Debug\net8.0\algoritmoBusca.pdb
+C:\Users\Laudiene\source\repos\algoritmoBusca\algoritmoBusca\obj\Debug\net8.0\algoritmoBusca.genruntimeconfig.cache
+C:\Users\Laudiene\source\repos\algoritmoBusca\algoritmoBusca\obj\Debug\net8.0\ref\algoritmoBusca.dll

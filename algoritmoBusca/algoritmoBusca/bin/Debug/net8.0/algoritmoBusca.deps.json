@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "algoritmoBusca/1.0.0": {
+        "runtime": {
+          "algoritmoBusca.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "algoritmoBusca/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
